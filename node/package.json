@@ -1,0 +1,25 @@
+{
+  "name": "lior",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "dist/main.js",
+  "bin": {
+    "lior": "./bin/lior.mjs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "analyze-seq": "tsc && node dist/main.js build --sequential",
+    "analyze-workers": "tsc && node dist/main.js build --workers",
+    "report": "tsc && node dist/main.js report",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,44 @@
+# Python (python/)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.uv/
+.hypothesis/
+
+# Node (node/)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+# build output (dist/build also above; adjust if you version them)
+out/
+.next/
+.nuxt/
+coverage/
+*.tsbuildinfo
+
+# Symlinks to shared ./data (do not commit)
+node/data
+python/data
+
+# Env & editor
+.env
+.history/

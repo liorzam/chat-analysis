@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-04-18T16:25:36.924816Z",
+  "top_sender_user": {
+    "id": "user_1027",
+    "count": 8000
+  },
+  "top_receiver_user": {
+    "id": "user_2080",
+    "count": 247381
+  },
+  "top_sender_org": {
+    "id": "org_55",
+    "count": 466979
+  },
+  "top_receiver_org": {
+    "id": "org_64",
+    "count": 6682830
+  }
+}
